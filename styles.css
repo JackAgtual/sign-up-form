@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.img-container {
+    position: relative;
+}
+
+.background-img {
+    height: 100vh;
+}
+
+.logo-bar {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    color: aliceblue;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo-img {
+    max-width: 20%;
+    width: auto;
+    height: auto;
+    margin-right: 20px;
+}
+
+.logo-txt {
+    font-size: 48px;
+}
