@@ -46,3 +46,13 @@ body {
     justify-content: space-around;
     align-items: flex-start;
 }
+
+.form-section > * {
+    flex: 1;
+    width: 100%;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.04);
+
+}
