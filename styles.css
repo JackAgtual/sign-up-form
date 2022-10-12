@@ -61,3 +61,16 @@ body {
 .create-acnt {
     margin: 10px 0;
 }
+
+form {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.form-col {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    height: 100%;
+}
