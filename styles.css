@@ -108,6 +108,29 @@ form {
     height: 100%;
 }
 
+input {
+    border: 1px solid grey;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: inherit;
+    font-weight: 100;
+    padding-left: 0.5ch;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+input:focus {
+    outline: 1px solid rgb(0, 51, 255);
+    box-shadow: 4px 4px 4px grey;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
 input[type=button] {
     padding: 10px 50px;
     margin-top: 60px;
